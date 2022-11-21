@@ -9,7 +9,7 @@ function App() {
         <p
           className="App-link"
         >
-          Fun with ReactJs Features
+          Fun with ReactJs Features with Hooks and React 18v
         </p>
       </header>
     </div>
