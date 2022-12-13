@@ -74,6 +74,12 @@ function Layout() {
                 <MenuItem>
                 <Link to="/other" style={{textDecoration:'none',color:'inherit'}}>Other</Link>
                 </MenuItem>
+                <MenuItem>
+                <Link to="/posts" style={{textDecoration:'none',color:'inherit'}}>Posts</Link>
+                </MenuItem>
+                <MenuItem>
+                <Link to="/tan-stack" style={{textDecoration:'none',color:'inherit'}}>Tan Stack</Link>
+                </MenuItem>
               </Menu>
             </Box>
             <AdbIcon sx={{display:{xs:'flex',md:'none'},mr:1}}/>
@@ -101,6 +107,12 @@ function Layout() {
             </Button>
             <Button sx={{ my: 2, color: 'white', display: 'block' }} >
               <Link to="/other" style={{textDecoration:'none',color:'inherit'}}>Other</Link>
+            </Button>
+            <Button sx={{ my: 2, color: 'white', display: 'block' }} >
+              <Link to="/posts" style={{textDecoration:'none',color:'inherit'}}>Posts</Link>
+            </Button>
+            <Button sx={{ my: 2, color: 'white', display: 'block' }} >
+              <Link to="/tan-stack" style={{textDecoration:'none',color:'inherit'}}>Tan Stack</Link>
             </Button>
           </Box>
           </Toolbar>
